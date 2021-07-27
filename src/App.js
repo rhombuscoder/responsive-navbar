@@ -1,10 +1,10 @@
 import './App.css';
-import ContactCard from './ContactCard';
+import ResponsiveNavbar from './ResponsiveNavbar';
 
 function App() {
   return (
-    <div className="App w-full h-screen flex items-center">
-      <ContactCard />
+    <div className="App w-full h-screen">
+      <ResponsiveNavbar />
     </div>
   );
 }
